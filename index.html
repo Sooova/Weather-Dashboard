@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Weather</title>
+</head>
+
+<body >
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class = 'side'> 
+        <div class = 'searchBar'>
+            <h2>Search for City:</h2>
+            <form id='form'>
+                <input type="text" id = "cityInput">
+                <button id='button'>Search</button>
+            </form>
+            <ul id = 'previousSearch'>
+            </ul>
+        </div>
+        <div>
+            <div class = 'todayTemp'>
+                <h2 id='city'></h2>
+                <div id='weatherIcon'>
+
+                </div>
+                <div>
+                    <h3 id='temp'></h3>
+                    <h3 id = 'wind'></h3>
+                    <h3 id = 'humidity'></h3>
+                </div>
+            </div>
+            <h2 class = "fiveDayHeading">Five Day Forecast</h2>
+            <div id = 'fiveDays'>
+                
+            </div>
+    
+        </div>
+    </div>
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="Assets/scripts.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href= "Assets/Styles.css">
+
+<scripts src = "Assets/scripts.js"></scripts>
+</html>
+

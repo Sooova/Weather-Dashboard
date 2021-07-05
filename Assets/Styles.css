@@ -1,0 +1,95 @@
+.side {
+    display: flex;
+    flex-direction: row;
+    margin:2%;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+}
+
+#previousSearch {
+    display:flex;
+    flex-direction: column;
+}
+
+button {
+    justify-content: center;
+}
+
+.background {
+    background-color: black;
+}
+
+#fiveDays {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 4px black;
+}
+
+.todayTemp {
+    border:solid 3px black;
+    justify-content: space-between;
+    min-width: 70rem;
+    text-align: center;
+
+}
+
+.tiles {
+    margin:2%;
+    background-color: rgb(35, 35, 100);
+    border-radius:5px;
+    padding:10px;
+}
+
+
+.tileText {
+    font-size: 20px;
+    color:white;
+}
+
+.test {
+    display: flex;
+}
+
+.fiveDayHeading {
+    text-align: center;
+    position:relative;
+}
+
+.searchBar {
+    margin-right:5%;
+    justify-content: center;
+}
+
+#city {
+    text-align: center;
+}
+
+header {
+    background-image:linear-gradient(to right,rgb(177, 177, 255),rgb(0, 0, 170));
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    border-bottom: black 5px solid;
+    margin-bottom: 1rem;
+    padding:1rem;
+
+}
+
+.searchHistory {
+    justify-content: center;
+}
+
+
+
