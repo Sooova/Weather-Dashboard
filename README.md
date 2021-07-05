@@ -14,6 +14,7 @@ In hindsight, instead of dynamically creating the elements when displaying the f
 I also used a lot more parameters in my functions, so i was able to call the function many more times throughout the code using different parameters, as opposed to having a plain function. 
 
 Deployed Website Appearance:
+https://sooova.github.io/Weather-Dashboard/
 ![image](https://user-images.githubusercontent.com/83949034/124466938-8641cb80-ddda-11eb-9f95-afe41e35062f.png)
 
 
